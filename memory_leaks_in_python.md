@@ -29,12 +29,18 @@ first tool, or just for a good overview
 ## Heap Fragmentation ##
 
 Used 2 MB / RSS 2 MB
-[xx]
+
+`[xx]`
+
 Allocate 8 MB -> Used 10 MB / RSS 10 MB
-[xxxxxxxxxxxxxxxxxx]
+
+`[xxxxxxxxxxxxxxxxxx]`
+
 Release 8.5 MB -> Used 1.5 MB / RSS 10 MB
-- is released but not available to the system again
-[xx----x----------x]
+
+`-` is released but not available to the system again
+
+`[xx----x----------x]`
 
 ## memory_profiler ##
 
