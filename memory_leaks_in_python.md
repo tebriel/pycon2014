@@ -2,7 +2,7 @@
 
 [tracemalloc](http://pytracemalloc.readthedocs.org)
 
-## view references ## 
+## view references ##
 
 ```python
 >>> import gc
